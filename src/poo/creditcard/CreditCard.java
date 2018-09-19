@@ -15,6 +15,16 @@ public class CreditCard {
     private String codigoDeSeguridad;
     private String fechaCreacion;
 
+    public String getFechaCreacion() {
+        return fechaCreacion;
+    }
+
+    public void setFechaCreacion(String fechaCreacion) {
+        this.fechaCreacion = fechaCreacion;
+    }
+    
+    
+
     public CreditCard(int numeroTarjeta, String fechaVencimiento, String codigoDeSeguridad) {
         this.numeroTarjeta = numeroTarjeta;
         this.fechaVencimiento = fechaVencimiento;
