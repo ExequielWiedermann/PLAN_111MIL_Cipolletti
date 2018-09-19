@@ -13,6 +13,7 @@ public class CreditCard {
     private int numeroTarjeta;
     private String fechaVencimiento;
     private String codigoDeSeguridad;
+    private String fechaCreacion;
 
     public CreditCard(int numeroTarjeta, String fechaVencimiento, String codigoDeSeguridad) {
         this.numeroTarjeta = numeroTarjeta;
